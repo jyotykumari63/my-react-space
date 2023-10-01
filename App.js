@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const parent = React.createElement("div", { id: "parentdiv" }, [
   React.createElement("div", { id: "childdiv1" }, [
     React.createElement("h1", { id: "heading1" }, "Hellooooo1"),
@@ -18,11 +21,3 @@ const headingElement = React.createElement(
 console.log(parent);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
-
-{
-  console.time("loop");
-  for (var i = 0; i < 1000000; i += 1) {
-    // Do nothing
-  }
-  console.timeEnd("loop");
-}

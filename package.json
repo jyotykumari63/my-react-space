@@ -1,0 +1,30 @@
+{
+  "name": "my-react-space",
+  "version": "1.0.0",
+  "description": "This is my react space in React World!",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyotykumari63/my-react-space.git"
+  },
+  "author": "Jyoti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyotykumari63/my-react-space/issues"
+  },
+  "homepage": "https://github.com/jyotykumari63/my-react-space#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "last two version"
+  ]
+}
